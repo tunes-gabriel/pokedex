@@ -28,7 +28,7 @@ function Listagem() {
 
             {
                 pokemons.map((i, index)=>
-            <li className="flex items-center gap-4">
+            <li className="flex-wrap items-center gap-4">
                 <img src={"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/"+(index+1)+".gif"}/>
                 <p><strong>{index+1}</strong><br/>{i.name}</p>
                 
